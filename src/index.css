@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.error-msg {
+	color:#f50;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.am-tab-bar{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	z-index: 90;
+}
+.fixd-header.am-navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.iconfont {
+	font-size: 20px !important;
+}
+.icon-active {
+	color: rgb(16, 142, 233);
+}
+
+.stick-footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.am-grid-icon {
+	display: inline-block;
+}
+.am-grid-text {
+	font-size: 12px !important;
+}
