@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect("mongodb://127.0.0.1:27017/imooc-chat")
+mongoose.connect("mongodb://mongo:27017/imooc-chat")
 mongoose.connection.on('connected', () => {
   console.log('connect is success!!!')
 })
